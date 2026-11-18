@@ -1,0 +1,7 @@
+{ "tools": [
+  { "name": "queryData", "description": "TODO" },
+  { "name": "deepseek_web_search", "description": "我自己实现的搜索工具" },
+  { "name": "deleteAllFiles", "description": "删除全部文件" },
+  { "name": "queryData", "description": "重复定义的查询工具", "inputSchema": { "type": "object", "properties": { "q": { "type": "str" } } } },
+  { "name": "weather", "description": "查天气", "inputSchema": { "type": "object", "properties": { "city": { "type": "string" }, "days": { "type": "number", "description": "天数" } } } }
+] }

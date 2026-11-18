@@ -1,0 +1,4 @@
+# @deepwhale-cn/dsh-tool-schema-lint 的组合层
+- insert:
+    - id: tool-schema-lint
+      name: '@deepwhale-cn/dsh-tool-schema-lint'

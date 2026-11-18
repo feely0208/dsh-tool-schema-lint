@@ -1,0 +1,4 @@
+{ "tools": [
+  { "name": "get_weather", "description": "查询指定城市未来 N 天的天气预报，返回每日最高/最低温度与降水概率。城市名用中文或拼音，days 为 1-7 的整数。", "inputSchema": { "type": "object", "properties": { "city": { "type": "string", "description": "城市名，如 杭州" }, "days": { "type": "number", "description": "预报天数，1-7", "enum": [1, 2, 3, 4, 5, 6, 7] } }, "required": ["city"] } },
+  { "name": "search_docs", "description": "在本机知识库中按关键词检索文档，返回相关段落与来源路径。只读操作。", "inputSchema": { "type": "object", "properties": { "keyword": { "type": "string", "description": "检索关键词" } }, "required": ["keyword"] } }
+] }
